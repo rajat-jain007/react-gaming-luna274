@@ -4,12 +4,11 @@ import "./App.css";
 
 import MarqueeText from "./components/MarqueeText";
 
-import Navlinks from "./components/Navlinks";
+
 import Navbar from "./components/Navbar/Navbar.jsx";
 import CarouselSlider from "./components/CarouselSlider";
 import ScoreBoard from "./components/ScoreBoard";
-import StripedRows from "./components/TableExample";
-import TableExample from "./components/TableExample";
+
 
 function App() {
   return (
@@ -18,11 +17,7 @@ function App() {
         <Navbar />
         <MarqueeText />
         <CarouselSlider />
-        {/* <ScoreBoard /> */}
-        <TableExample />
-        {/* <StripedRows /> */}
-
-        {/* <Navlinks/> */}
+        <ScoreBoard />
       </div>
     </>
   );
