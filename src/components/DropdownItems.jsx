@@ -45,7 +45,9 @@ function DropdownItems() {
           <Dropdown.Item className="bg-gray-200 shadow-lg mb-2 rounded-md text-left">
             P & L<br />0
           </Dropdown.Item>
-          <Dropdown.Item className="bg-red-500 rounded-md">Close</Dropdown.Item>
+          <Dropdown.Item className="bg-red-500 rounded-md text-black">
+            Close
+          </Dropdown.Item>
         </Dropdown>
 
         <Dropdown
@@ -64,7 +66,9 @@ function DropdownItems() {
             <br />0
           </Dropdown.Item>
           <Dropdown.Divider />
-          <Dropdown.Item className="bg-red-500 rounded-md">Close</Dropdown.Item>
+          <Dropdown.Item className="bg-red-500 rounded-md text-black">
+            Close
+          </Dropdown.Item>
         </Dropdown>
       </div>
     </>
