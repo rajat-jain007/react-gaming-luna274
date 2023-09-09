@@ -1,4 +1,5 @@
 import React from "react";
+import MobileViewScoreboard from "./MobileViewScoreboard.jsx"
 
 function ScoreBoard() {
   return (
@@ -613,6 +614,8 @@ function ScoreBoard() {
       </div>
 
       {/* Mobile View */}
+      
+    <MobileViewScoreboard/>
     </>
   );
 }
