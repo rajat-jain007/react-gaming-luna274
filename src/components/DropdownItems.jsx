@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 
-// import { DropDownList } from "./Links";
-// import { PiCoinVerticalDuotone } from "react-icons/pi";
-
 import { Dropdown } from "flowbite-react";
 import { DropDownList } from "./Links";
 
