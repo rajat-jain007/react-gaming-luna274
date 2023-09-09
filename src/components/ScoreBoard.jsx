@@ -21,7 +21,7 @@ function ScoreBoard() {
             </th>
           </thead>
           <tbody className="grid grid-cols-9 gap-4 p-2">
-            <td className="text-sm font-semibold flex col-span-3 whitespace-nowrap">
+            <td className="text-sm font-semibold flex col-span-3 ">
               <span className="text-slate-400 mr-1">08 Sep 05:00</span>
               <span className="text-slate-400 mr-1">|</span>
               <span className="ml-1 mr-1 text-white ">
@@ -30,17 +30,17 @@ function ScoreBoard() {
             </td>
 
             <td
-              className=" text-sm font-semibold flex  h-4 w-4 col-span-2 place-items-center whitespace-nowrap
+              className=" text-sm font-semibold flex  h-4 w-4 col-span-2 place-items-center 
            "
             >
               <span className=" bg-slate-500 px-6 mr-2 ">2.23</span>
               <span className=" bg-slate-500 px-6 ">4.23</span>
             </td>
-            <td className=" text-sm font-semibold flex  h-4 w-4 col-span-2 place-items-center  whitespace-nowrap">
+            <td className=" text-sm font-semibold flex  h-4 w-4 col-span-2 place-items-center">
               <span className=" bg-slate-500 px-6 mr-2 ">xxx</span>
               <span className=" bg-slate-500 px-6 ">xxx</span>
             </td>
-            <td className=" text-sm font-semibold flex  h-4 w-4 col-span-2 place-items-center whitespace-nowrap">
+            <td className=" text-sm font-semibold flex  h-4 w-4 col-span-2 place-items-center">
               <span className=" bg-slate-500 px-6 mr-2 ">5.60</span>
               <span className=" bg-slate-500 px-6 ">5.60</span>
             </td>
