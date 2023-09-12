@@ -1,10 +1,10 @@
 import React from "react";
-import MobileViewScoreboard from "./MobileViewScoreboard.jsx"
+import MobileViewScoreboard from "./MobileViewScoreboard.jsx";
 
 function ScoreBoard() {
   return (
     <>
-      <div className="p-5 hidden  whitespace-nowrap overflow-auto  md:block">
+      <div className="p-5 hidden whitespace-nowrap w-full overflow-auto md:block">
         <h1 className="text-xl text-white mb-2 p-1 bg-red-800 border-b-2 border-b-slate-300">
           Cricket
         </h1>
@@ -614,8 +614,8 @@ function ScoreBoard() {
       </div>
 
       {/* Mobile View */}
-      
-    <MobileViewScoreboard/>
+
+      <MobileViewScoreboard />
     </>
   );
 }
